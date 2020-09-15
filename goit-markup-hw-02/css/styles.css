@@ -81,7 +81,7 @@ body {
 }
 
 .title-item {
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-style: 400;
   font-weight: 900;
   font-size: 44px;
