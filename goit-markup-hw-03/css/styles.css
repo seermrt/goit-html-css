@@ -18,6 +18,11 @@ body {
   font-family: var(--main-font);
   font-style: normal;
 }
+header {
+  border-bottom: 1px solid;
+  border-color: #ececec;
+}
+
 ul {
   list-style: none;
 }
@@ -49,6 +54,8 @@ a {
 
 .address {
   font-style: normal;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 img {
@@ -57,22 +64,14 @@ img {
 
 .container {
   width: 1200px;
-  padding: 0 15px;
+  /* padding: 0 15px; */
   margin: 0 auto;
 }
 
 .header {
-  padding: 24px 0;
-}
-
-.header .container {
+  padding: 24px 15px;
   display: flex;
   align-items: center;
-}
-
-.header .address {
-  margin-left: auto;
-  margin-right: 50px;
 }
 
 .navigation {
@@ -165,8 +164,7 @@ img {
 /*---  MAIN -----*/
 
 .our-advantages {
-  margin: 0;
-  padding: 94px 0;
+  padding: 94px 15px;
 }
 
 .advantage-list {
@@ -318,8 +316,12 @@ img {
   background-color: #2f303a;
   padding: 60px 0;
 }
+.addresses-section {
+  padding: 0 15px;
+}
 
 .logo-down {
+  display: block;
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -336,11 +338,15 @@ img {
   letter-spacing: 0.03em;
   margin: 0;
   color: #ffffff;
+}
+
+.address-list-item {
   margin-bottom: 9px;
 }
 
 .address-down-list {
   padding: 0;
+  margin: 0;
 }
 
 .example-list-name {
@@ -415,16 +421,16 @@ img {
 
 .example-list-item {
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .example-list-item:nth-child(3n + 3) {
   margin-right: 0;
 }
 
-.example-list-img {
-  margin-bottom: 20px;
-}
-
 .exmple-list-full-description {
-  padding: 0 24px 20px;
+  box-sizing: border-box;
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  background-color: #ffffff;
 }
