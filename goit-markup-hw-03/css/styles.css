@@ -64,7 +64,7 @@ img {
 
 .container {
   width: 1200px;
-  /* padding: 0 15px; */
+
   margin: 0 auto;
 }
 
@@ -316,10 +316,11 @@ img {
   color: #757575;
 }
 
-.our-addresses {
+footer {
   background-color: #2f303a;
   padding: 60px 0;
 }
+
 .addresses-section {
   padding: 0 15px;
 }
