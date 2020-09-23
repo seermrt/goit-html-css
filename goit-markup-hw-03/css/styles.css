@@ -19,7 +19,7 @@ body {
   font-style: normal;
 }
 header {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid; 
   border-color: #ececec;
 }
 
@@ -71,6 +71,11 @@ img {
 .header {
   padding: 25px 15px 24px;
   display: flex;
+  align-items: center;
+}
+
+.header-content {
+display: flex;
   align-items: center;
 }
 
@@ -198,7 +203,11 @@ img {
   font-weight: bold;
   width: 376px;
   text-align: center;
+margin: 0 auto;
   margin-bottom: 50px;
+  text-align: center;
+  padding: 0;
+  margin-top: 0;
 }
 
 .activity-list {
@@ -208,11 +217,7 @@ img {
   margin-bottom: 94px;
 }
 
-.activity {
-  text-align: center;
-  padding: 0;
-  margin-top: 0;
-}
+
 .activity-list-img {
   width: 370px;
   height: 294px;
@@ -262,7 +267,7 @@ img {
   padding: 94px 0;
 }
 .team-bg {
-  background-color: #f5f4fa;
+background-color: #f5f4fa;
 }
 
 .team {
