@@ -19,7 +19,7 @@ body {
   font-style: normal;
 }
 header {
-  border-bottom: 1px solid; 
+  border-bottom: 1px solid;
   border-color: #ececec;
 }
 
@@ -64,7 +64,7 @@ img {
 
 .container {
   width: 1200px;
-padding: 0 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -75,7 +75,7 @@ padding: 0 15px;
 }
 
 .header-content {
-display: flex;
+  display: flex;
   align-items: center;
 }
 
@@ -203,23 +203,18 @@ display: flex;
   font-weight: bold;
   width: 376px;
   text-align: center;
-margin: 0 auto;
+  margin: 0 auto;
   margin-bottom: 50px;
   text-align: center;
   padding: 0;
   margin-top: 0;
-
 }
-
-
 
 .activity-list {
   display: flex;
   padding: 0;
   margin: 0 auto;
-  
 }
-
 
 .activity-list-img {
   width: 370px;
@@ -239,9 +234,8 @@ margin: 0 auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-padding-bottom: 94px;
+  padding-bottom: 94px;
 }
-
 
 .advantage-subtitle {
   font-weight: 400;
@@ -269,11 +263,10 @@ padding-bottom: 94px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 .team-bg {
-background-color: #f5f4fa;
-padding: 94px 0;
+  background-color: #f5f4fa;
+  padding: 94px 0;
 }
 
 .team {
@@ -284,7 +277,6 @@ padding: 94px 0;
   text-align: center;
   margin-bottom: 50px;
   margin: 0 0 64px;
-
 }
 
 .team-list-item {
@@ -389,8 +381,12 @@ footer {
   color: #757575;
 }
 
-.our-works {
+.portfolio {
   padding: 94px 0;
+  display: flex;
+}
+
+.our-works {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -401,6 +397,7 @@ footer {
   padding: 0;
   margin-top: 0;
   margin-bottom: 50px;
+  align-items: center;
 }
 
 .work-list-btn {
