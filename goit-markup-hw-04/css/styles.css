@@ -606,7 +606,7 @@ footer {
   display: flex;
   box-sizing: border-box;
   border-radius: 3px;
-  border: 2px solid #afb1b8;
+  border: 1px solid #afb1b8;
   justify-content: center;
   align-items: center;
   width: 170px;
